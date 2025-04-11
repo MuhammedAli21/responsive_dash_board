@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_final_design/views/dash_board_view.dart';
 
 void main() {
   runApp(const ResponsiveDashBoard());
@@ -9,6 +10,6 @@ class ResponsiveDashBoard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return const MaterialApp(home: DashBoardView());
   }
 }
