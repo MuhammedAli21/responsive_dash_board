@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_final_design/widgets/all_expensess.dart';
+
 import 'package:responsive_final_design/widgets/custome_drawer.dart';
 
 class DesktopLayout extends StatelessWidget {
@@ -6,6 +8,12 @@ class DesktopLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Row(children: [Expanded(child: CustomeDrawer())]);
+    return const Row(
+      children: [
+        Expanded(child: CustomeDrawer()),
+        SizedBox(width: 16),
+        Expanded(flex: 2, child: AllExpensess()),
+      ],
+    );
   }
 }
