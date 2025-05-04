@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_final_design/widgets/all_enpsenss_and_quickinvoise.dart';
-import 'package:responsive_final_design/widgets/card_section.dart';
-import 'package:responsive_final_design/widgets/custom_crdit_card.dart';
+import 'package:responsive_final_design/widgets/card_transaction_section.dart';
 
 import 'package:responsive_final_design/widgets/custome_drawer.dart';
-import 'package:responsive_final_design/widgets/dots_generator.dart';
-import 'package:responsive_final_design/widgets/my_card_page_view.dart';
 
 class DesktopLayout extends StatelessWidget {
   const DesktopLayout({super.key});
@@ -23,7 +20,7 @@ class DesktopLayout extends StatelessWidget {
           ),
         ),
         SizedBox(width: 24),
-        Expanded(child: CardSection()),
+        Expanded(child: CardTransactionSection()),
       ],
     );
   }

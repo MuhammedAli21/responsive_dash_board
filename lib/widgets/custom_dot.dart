@@ -11,7 +11,7 @@ class CustomDot extends StatelessWidget {
         width: isActive ? 32 : 8,
         height: 8,
         decoration: ShapeDecoration(
-          color: isActive ? const Color(0xff4eb7f2) : Colors.white,
+          color: isActive ? const Color(0xff4eb7f2) : Colors.grey,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
           ),
